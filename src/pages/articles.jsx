@@ -4,7 +4,7 @@ import Head from "next/head"
 import React, { useRef } from 'react'
 import Image from "next/image"
 import Link from "next/link"
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
+import article1 from "../../public/images/articles/html5.png";
 import article2 from "../../public/images/articles/What is Redux with easy explanation.png";
 import { motion, useMotionValue } from "framer-motion";
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
@@ -64,7 +64,7 @@ const Article = ({ img, title, date, link }) => {
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
 
     return (
-        <li className="col-span-1 w-full p-4 bg-light border-solid border-dark rounded-2xl shadow-2xl relative border dark:bg-dark dark:border-light">
+        <li className="col-span-1 w-full p-5 bg-light border-solid border-dark rounded-2xl shadow-2xl relative border dark:bg-dark dark:border-light">
             <div className='absolute top-0 -right-3 -z-10 w-[101.7%] h-[102%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light' />
             <Link href={link} target="_blank"
                 className="w-full inline-block cursor-pointer overflow-hidden rounded-lg"
@@ -94,14 +94,23 @@ const articles = () => {
                 <meta name='description' content='any description' />
             </Head>
             <TransitionEffect />
-            <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
+            <main className="w-full flex flex-col items-center justify-center overflow-hidden dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText text="Words Can Change The World!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
                     <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
                         <FeaturedArticle
-                            title="Build A Custom Pagination Component In Reactjs From Scratch"
-                            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                            title="What Is HTML?"
+                            summary="HTML stands for HyperText Markup Language, which
+                            can be a confusing term for many beginners.
+                            The best way to explain HTML is to examine the
+                            meaning of each word. HyperText refers to text that contains links to
+                            other texts.
+                            Every time you click on a highlighted or
+                            underlined link that takes you to another page,
+                            you are using hypertext.
+                            As more and more pages use hypertext to link to
+                            each other, a “web” of pages starts to form.
+                            This is where we get the term World Wide Web."
                             time="9 min read"
                             link="/"
                             img={article1}

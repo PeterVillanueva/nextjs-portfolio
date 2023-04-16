@@ -53,7 +53,7 @@ const about = () => {
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
               <p className='font-medium'> 
                 Hi, Im Peter Villanueva, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
+                and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
                 new and innovative ways to bring my clients visions to life.
               </p>
               <p className='my-4 font-medium'>
