@@ -16,7 +16,7 @@ const Details = ({ type, time, place, info }) => {
                 <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                     {time} │ {place}
                 </span>
-                <p className='font-medium w-full md:text-sm'>
+                <p className='font-medium w-full md:text-sm mt-2'>
                     {info}
                 </p>
             </motion.div>
@@ -45,10 +45,26 @@ const Education = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
                         type="Bachelor Of Science In Information Technology"
-                        time="2016-2020" place="WVSU -PC"
+                        time="2022 - Present" place="WVSU -PC"
                         info="The School of ICT is an academic department that offers courses in information 
-                        and communication technology. It prepares students for careers in IT through theoretical coursework and practical projects."
-                    />
+                        and communication technology. 
+                        It prepares students for careers in IT through theoretical coursework and practical projects."/>
+
+                    <Details
+                        type="Senior HighSchool Graduate"
+                        time="2019 - 2022" place="SACRED HEART ACADEMY - SHA"
+                        info="STEM stands for Science, Technology, Engineering, and Mathematics. 
+                        It is an educational approach that integrates these four subjects to develop critical thinking, 
+                        problem-solving, and analytical skills. STEM education focuses on providing students with hands-on learning experiences 
+                        that are relevant to real-world applications." />
+
+                        <Details
+                        type="Junior HighSchool Graduate"
+                        time="2016 - 2020" place="COLEGIO DE LA INMACULADA CONCEPTION - CIC"
+                        info="STEM stands for Science, Technology, Engineering, and Mathematics. 
+                        Colegio de la Inmaculada Concepcion Hijas de Jesus Pototan is a Catholic school in Pototan, Iloilo, Philippines. 
+                        It provides a quality Catholic education based on Gospel values and promotes a sense of community and service. 
+                        The school offers a comprehensive curriculum and encourages students to participate in extracurricular activities." />
                 </ul>
             </div>
         </div>

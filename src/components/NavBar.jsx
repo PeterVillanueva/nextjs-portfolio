@@ -75,33 +75,33 @@ const NavBar = () => {
                 </nav>
 
                 <nav className="flex items-center justify-center flex-wrap">
-                    <motion.a href="/" target={"_blank"}
+                    <motion.a href="https://twitter.com/" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className="w-6 mr-3"
                     >
                         <TwitterIcon />
                     </motion.a>
-                    <motion.a href="/" target={"_blank"}
+                    <motion.a href="https://Github.com/PeterVillanueva" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className="w-6 mr-3">
                         <GithubIcon />
                     </motion.a>
-                    <motion.a href="/" target={"_blank"}
+                    <motion.a href="https://www.linkedin.com/" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className="w-6 mr-3">
                         <LinkedInIcon />
                     </motion.a>
-                    <motion.a href="/" target={"_blank"}
+                    <motion.a href="#" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className="w-6 mr-3 bg-light rounded-full"
                     >
                         <PinterestIcon />
                     </motion.a>
-                    <motion.a href="/" target={"_blank"}
+                    <motion.a href="#" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className="w-6 mr-3"
@@ -138,20 +138,20 @@ const NavBar = () => {
                         </nav>
 
                         <nav className="flex items-center justify-center flex-wrap mt-2">
-                            <motion.a href="/" target={"_blank"}
+                            <motion.a href="https://twitter.com/" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="w-6 mr-3 sm:mx-1"
                             >
                                 <TwitterIcon />
                             </motion.a>
-                            <motion.a href="/" target={"_blank"}
+                            <motion.a href="https://Github.com/PeterVillanueva" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="w-6 mr-3 bg-light rounded-full dark:bg-dark sm:mx-1">
                                 <GithubIcon />
                             </motion.a>
-                            <motion.a href="/" target={"_blank"}
+                            <motion.a href="https://www.linkedin.com/" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="w-6 mr-3 sm:mx-1">
